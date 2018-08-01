@@ -60,6 +60,8 @@ class User_model extends CI_Model
         $query = $this->db->get();
         
         $result = $query->result();  
+
+
         return $result;
     }
     
@@ -93,6 +95,7 @@ class User_model extends CI_Model
             $this->db->where("userId !=", $userId);
         }
         $query = $this->db->get();
+
         return $query->result();
     }
     
@@ -105,8 +108,11 @@ class User_model extends CI_Model
     {
         $this->db->trans_start();
         $this->db->insert('tbl_users', $userInfo);
+        
         $insert_id = $this->db->insert_id();
+        
         $this->db->trans_complete();
+        
         return $insert_id;
     }
     
@@ -123,6 +129,7 @@ class User_model extends CI_Model
 		//$this->db->where('roleId !=', 1);
         $this->db->where('userId', $userId);
         $query = $this->db->get();
+        
         return $query->result();
     }
     
@@ -155,12 +162,14 @@ class User_model extends CI_Model
         return $this->db->affected_rows();
     }
 
+
     /**
      * This function is used to match users password for change password
      * @param number $userId : This is user id
      */
     function matchOldPassword($userId, $oldPassword)
     {
+
         $this->db->select('userId, password');
         $this->db->where('userId', $userId);        
         $this->db->where('isDeleted', 0);

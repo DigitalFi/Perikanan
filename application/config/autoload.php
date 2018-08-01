@@ -58,23 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-//$autoload['libraries'] = array();
-//$autoload['libraries'] = array('database','users/ion_auth');
-//$autoload['libraries'] = array('database', 'session', 'custom_constants');
- $autolad['libraries'] = array("database", "session");
-
-
-/*
-| -------------------------------------------------------------------
-|  Auto-load Helper Files
-| -------------------------------------------------------------------
-| Prototype:
-|
-|	$autoload['helper'] = array('url', 'file');
-*/
-
-$autoload['helper'] = array('url', 'file','cias_helper');
-
+$autoload['libraries'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -99,7 +83,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+$autoload['helper'] = array('url', 'file','cias_helper');
 
 /*
 | -------------------------------------------------------------------

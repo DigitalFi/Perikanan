@@ -13,9 +13,9 @@ class Frontend_menu_models extends CI_Model{
 		$next_id_menu ='';
 		$sqlhdr = "SELECT a.id_menu, a.menu_label, a.link_menu,  a.section_id,  Deriv1.Count, a.parent_id  FROM `sys_frontend_menu` a 
 		LEFT OUTER JOIN (SELECT parent_id, COUNT(*) AS Count FROM `sys_frontend_menu` GROUP BY parent_id) Deriv1 
-		ON a.id_menu = Deriv1.parent_id WHERE a.parent_id='$parent' and a.is_active='Y'  ORDER BY sort_order";
-
+		ON a.id_menu = Deriv1.parent_id WHERE a.parent_id='$parent' and a.is_active='Y' ORDER BY sort_order";
 		$queryhdr =$this->db->query($sqlhdr);
+
 		$menu_position = strtolower(get_sys_setting ('003'));
 		$menu_item = "<div class='collapse navbar-collapse navbar-".$menu_position."'>";
 		$menu_item.= "<ul class='nav navbar-nav'>";

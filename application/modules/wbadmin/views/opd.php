@@ -34,12 +34,6 @@ function searchFilter(page_num) {
     });
 }
 
-$(document).ready(function() {
-  $('#myModal').on('show.bs.modal', function(e) {
-    $('.chosen-select', this).chosen({width: "40%"});
-  });
-});
-
 function Populate(){
   var favorite = [];
   $.each($("input[name='id_content']:checked"), function(){
@@ -126,8 +120,6 @@ function delete_data () {
 $(function(){
     $('#myModal').on('hidden.bs.modal', function () {
         $(this).find("input,textarea,select").val('').end();
-         $('#section').val('').trigger('chosen:updated');  
-
     });
 });
 
@@ -148,7 +140,6 @@ function get_data(id){
             $('#no_arsip').val(this['fe_content_short_desc']);
             $('#judul_arsip').val(this['fe_full_content']);
             $('#txt_tgl_terbit').val(this['tgl_arsip']);
-            $('#nm_opd').val(this['fe_section_name']).trigger('chosen:updated');
             $('#myModal').modal('show'); 
          });
     });
@@ -278,9 +269,7 @@ function get_data(id){
                                       <input type="hidden" id="hdn_article_id" name="hdn_article_id" > 
                                           <div class="form-group-sm">
                                                <label for="menutext">Nama OPD:</label>
-                                               <BR>
-                                               <?php  echo $dt_cbo_opd; ?>
-                                               <!--  <input type="text" class="form-control" maxlength="150" style="width:60%" id="nm_opd" name="nm_opd" required> -->
+                                                <input type="text" class="form-control" maxlength="150" style="width:60%" id="nm_opd" name="nm_opd" required>
                                           </div>
                                           <div class="form-group-sm">
                                                <label for="menutext">Nomer Arsip:</label>

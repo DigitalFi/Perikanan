@@ -102,7 +102,7 @@ class Login extends CI_Controller
      */
     public function forgotPassword()
     {
-        $this->load->view('user/forgotPassword');
+        $this->load->view('forgotPassword');
     }
     
     /**
@@ -114,7 +114,7 @@ class Login extends CI_Controller
         
         $this->load->library('form_validation');
         
-        $this->form_validation->set_rules('login_email','Email','trim|required|valid_email');
+        $this->form_validation->set_rules('login_email','Email','trim|required|valid_email|xss_clean');
                 
         if($this->form_validation->run() == FALSE)
         {
@@ -124,7 +124,7 @@ class Login extends CI_Controller
         {
             $email = $this->input->post('login_email');
             
-            if($this->login_model_user->checkEmailExist($email))
+            if($this->login_model->checkEmailExist($email))
             {
                 $encoded_email = urlencode($email);
                 
@@ -135,12 +135,12 @@ class Login extends CI_Controller
                 $data['agent'] = getBrowserAgent();
                 $data['client_ip'] = $this->input->ip_address();
                 
-                $save = $this->login_model_user->resetPasswordUser($data);                
+                $save = $this->login_model->resetPasswordUser($data);                
                 
                 if($save)
                 {
                     $data1['reset_link'] = base_url() . "resetPasswordConfirmUser/" . $data['activation_id'] . "/" . $encoded_email;
-                    $userInfo = $this->login_model_user->getCustomerInfoByEmail($email);
+                    $userInfo = $this->login_model->getCustomerInfoByEmail($email);
 
                     if(!empty($userInfo)){
                         $data1["name"] = $userInfo[0]->name;
@@ -169,7 +169,7 @@ class Login extends CI_Controller
                 $status = 'invalid';
                 setFlashData($status, "This email is not registered with us.");
             }
-            redirect('user/login/forgotPassword');
+            redirect('/forgotPassword');
         }
     }
 
@@ -180,7 +180,7 @@ class Login extends CI_Controller
         $email = urldecode($email);
         
         // Check activation id in database
-        $is_correct = $this->login_model_user->checkActivationDetails($email, $activation_id);
+        $is_correct = $this->login_model->checkActivationDetails($email, $activation_id);
         
         $data['email'] = $email;
         $data['activation_code'] = $activation_id;
@@ -218,11 +218,11 @@ class Login extends CI_Controller
             $cpassword = $this->input->post('cpassword');
             
             // Check activation id in database
-            $is_correct = $this->login_model_user->checkActivationDetails($email, $activation_id);
+            $is_correct = $this->login_model->checkActivationDetails($email, $activation_id);
             
             if($is_correct == 1)
             {                
-                $this->login_model_user->createPasswordUser($email, $password);
+                $this->login_model->createPasswordUser($email, $password);
                 
                 $status = 'success';
                 $message = 'Password changed successfully';
@@ -242,6 +242,10 @@ class Login extends CI_Controller
     private function load_user_info($page_to_embed){
         $data['page_content']=$page_to_embed;
         $data['left_menu'] = $this->Adm_menu_model->generate_adm_menu(0);
+        $data['user_online']=$this->wbadmin_login_model->get_users_online();
+        $data['all_user']=$this->wbadmin_login_model->get_total_users();
+        $data['user_active']=$this->wbadmin_login_model->get_users_active();
+        $data['user_inactive']=$this->wbadmin_login_model->get_users_inactive();
         $data['full_user_name']=$this->session->userdata('full_name');
         return $data;
     }

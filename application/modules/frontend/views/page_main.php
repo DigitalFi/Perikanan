@@ -52,7 +52,6 @@
     </header><!--/header-->
 	<!--Page Content Start-->
     	<?php echo $page_content; ?>
-       
 	<!--Page Content End-->
 	
     <script src="<?php echo base_url()?>assets/js/jquery.min.js"></script>

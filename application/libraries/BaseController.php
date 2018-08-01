@@ -128,9 +128,10 @@ class BaseController extends CI_Controller {
 	 * @param {number} $perPage : This is records per page limit
 	 * @return {mixed} $result : This is array of records and pagination data
 	 */
-	function paginationCompress($link, $count, $perPage = 10, $keyword='' ) {
+	function paginationCompress($link, $count, $perPage = 10) {
 		$this->load->library ( 'pagination' );
-		$config ['base_url'] = base_url () .$link;
+	
+		$config ['base_url'] = base_url () . $link;
 		$config ['total_rows'] = $count;
 		$config ['uri_segment'] = SEGMENT;
 		$config ['per_page'] = $perPage;
@@ -157,12 +158,10 @@ class BaseController extends CI_Controller {
 		$this->pagination->initialize ( $config );
 		$page = $config ['per_page'];
 		$segment = $this->uri->segment ( SEGMENT );
-
-
+	
 		return array (
 				"page" => $page,
-				"segment" => $segment,
-				"keyword" => $keyword
+				"segment" => $segment
 		);
 	}
 

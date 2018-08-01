@@ -41,7 +41,7 @@ class Login_model extends CI_Model{
 		$this->db->query($sql);
 	}
 	
-	public function get_users_online(){
+	function get_users_online(){
 		$num_ol_user = 0;
 		$sql = "SELECT user_id FROM sys_users WHERE login_status = '1'";
 		$query= $this->db->query($sql);

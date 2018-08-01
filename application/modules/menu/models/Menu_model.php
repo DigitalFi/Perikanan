@@ -16,6 +16,7 @@ class Menu_model extends CI_Model{
 		$sql ="SELECT fe_content_id, fe_img_files, fe_content_title, fe_full_content, fe_content_short_desc, fe_section_name,  
 		 create_by, create_date FROM sys_fe_content WHERE status_active = 'Y' AND fe_content_id = '$id_content' ORDER BY fe_content_sort_order DESC limit 0,1  ";
 	
+//echo $sql;
 		$query=$this->db->query($sql);
 		$row=$query->row();
 		if(isset($row)){

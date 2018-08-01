@@ -62,7 +62,7 @@ CKEDITOR.dialog.add( 'abbrDialog', function( editor ) {
 
     contents: [
       {
-        id: 'Upload1',
+        id: 'Upload',
         filebrowser: 'uploadButton',
         hidden: true,
         elements: [
@@ -72,7 +72,7 @@ CKEDITOR.dialog.add( 'abbrDialog', function( editor ) {
           },
           {
             type: 'file',
-            id: 'upload',
+            id: 'attachment',
             inputStyle: 'outline: 0',
             style: 'height:40px',
             size: 38,
@@ -82,7 +82,7 @@ CKEDITOR.dialog.add( 'abbrDialog', function( editor ) {
             id: 'uploadButton',
             filebrowser: 'info:txtUrl',
             label: editor.lang.image.btnUpload,
-            'for': [ 'Upload1', 'upload' ],
+            'for': [ 'Upload', 'attachment' ],
             onClick: function() {
               var attachment = attachmentUploader.getFileField();
               if (attachment.val()) {

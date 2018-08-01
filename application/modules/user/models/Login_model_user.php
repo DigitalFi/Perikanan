@@ -26,7 +26,10 @@ class Login_model_user extends CI_Model
         $this->db->where('BaseTbl.email', $email);
         $this->db->where('BaseTbl.isDeleted', 0);
         $query = $this->db->get();
+        
         $user = $query->result();
+
+       
         if(!empty($user)){
             if(verifyHashedPassword($password, $user[0]->password)){
                 return $user;

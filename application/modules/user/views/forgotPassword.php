@@ -2,10 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Web Kearsipan</title>
+    <title>CodeInsect | Admin System Log in</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-  <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url(); ?>assets/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url(); ?>assets/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,12 +17,14 @@
   </head>
   <body class="login-page">
     <div class="login-box">
-        <!-- /.login-logo -->
+      <div class="login-logo">
+        <a href="#"><b>CodeInsect</b><br>Admin System</a>
+      </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Forgot Password</p>
         <?php $this->load->helper('form'); ?>
         <div class="row">
-            <div class="col-md-12"> 
+            <div class="col-md-12">
                 <?php echo validation_errors('<div class="alert alert-danger alert-dismissable">', ' <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>'); ?>
             </div>
         </div>
@@ -77,7 +80,7 @@
             </div>
         <?php } ?>
         
-        <form action="<?php echo base_url(); ?>user/login/resetPasswordUser" method="post">
+        <form action="<?php echo base_url(); ?>resetPasswordUser" method="post">
           <div class="form-group has-feedback">
             <input type="email" class="form-control" placeholder="Email" name="login_email" required />
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -91,7 +94,7 @@
             </div><!-- /.col -->
           </div>
         </form>
-        <a href="<?php echo base_url() ?>wbadmin">Login</a><br>
+        <a href="<?php echo base_url() ?>">Login</a><br>
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
 

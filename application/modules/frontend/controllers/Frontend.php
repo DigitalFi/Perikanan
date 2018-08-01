@@ -20,16 +20,9 @@ class Frontend extends CI_Controller {
 	}
 	
 	public function index(){
-		/*$data['nav_bar_menu']= $this->frontend_menu_models->generate_frontend_menu(0);
-		$data['page_content'] = $this->User_main_page_models->generate_page_section();*/
-		$this->load->view('landing');
-	}
-
-	public function mainpage(){
 		$data['nav_bar_menu']= $this->frontend_menu_models->generate_frontend_menu(0);
 		$data['page_content'] = $this->User_main_page_models->generate_page_section();
 		$this->load->view('page_main',$data);
-
 	}
 	
 	public function img_url($img){

@@ -361,6 +361,10 @@ class User extends BaseController
     private function load_user_info($page_to_embed){
         $data['page_content']=$page_to_embed;
         $data['left_menu'] = $this->Adm_menu_model->generate_adm_menu(0);
+        $data['user_online']=$this->wbadmin_login_model->get_users_online();
+        $data['all_user']=$this->wbadmin_login_model->get_total_users();
+        $data['user_active']=$this->wbadmin_login_model->get_users_active();
+        $data['user_inactive']=$this->wbadmin_login_model->get_users_inactive();
         $data['full_user_name']=$this->session->userdata('full_name');
         return $data;
     }

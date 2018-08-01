@@ -71,7 +71,7 @@
           </div>
         </form>
 
-        <a href="<?php echo base_url() ?>user/login/forgotPassword">Forgot Password</a><br>
+        <a href="<?php echo base_url() ?>forgotPassword">Forgot Password</a><br>
         
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->

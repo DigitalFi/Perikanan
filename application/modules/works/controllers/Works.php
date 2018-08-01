@@ -19,6 +19,7 @@ class Works extends CI_Controller {
 	
 	public function detail($id_content){
 		$segment_info = $this->uri->segment(4);
+		//echo "segmen ". $segment_info;
 		$data['nav_bar_menu']= $this->frontend_menu_models->generate_frontend_menu(0);
 		$data['page_content'] = $this->works_model->get_detail($id_content, $segment_info);
 		$this->load->view('works',$data);

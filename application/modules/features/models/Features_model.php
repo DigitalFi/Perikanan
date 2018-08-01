@@ -22,6 +22,10 @@ class Features_model extends CI_Model{
 		$row=$query->row();
 		if(isset($row)){
 			$img_url = base_url(). 'assets/images/upload/features/'.$row->fe_img_files;
+			$gambar='';
+			if(isset($row->fe_img_files)){
+			    $gambar = '<img class="img-responsive" style="height:300px" src="'.$img_url.'" alt="">';
+			}
 			$blog.='<section id="blog" style="padding-top:2px;">
 				<div class="container">';
 			$blog.='<div class="row">';	
@@ -32,7 +36,8 @@ class Features_model extends CI_Model{
 							<article>
 								<header class="entry-header">
 									<div class="entry-thumbnail" >
-										<img class="img-responsive" style="height:300px" src="'.$img_url.'" alt="">
+									    '.$gambar.'
+										
 									</div>
 									
 								</header>

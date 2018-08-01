@@ -160,7 +160,7 @@ function get_data(id){
      margin: 0 0 -10px 0; // additionaly, you can position your placeholder, 
      }  
   </style>
-<div class="container" style="height:100%">
+<div class="container">
 <input type="hidden" id ="tags" name="tags" /> 
 <input type="hidden" id ="secnm" name="secnm" />
 
@@ -302,7 +302,7 @@ function get_data(id){
     <script src="<?php echo base_url()?>assets/js/jquery.inview.min.js"></script>
     <script src="<?php echo base_url()?>assets/js/wow.min.js"></script>
     <script src="<?php echo base_url()?>assets/js/main.js"></script>
-
+    
   <?php echo generate_footer('16')?>  
 </body>
 </html>

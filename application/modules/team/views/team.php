@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/images/upload/logo/<?php echo  get_logo() ?>" style="width:169px;height:57px" alt="logo"></a>
+                    <a class="navbar-brand" href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/images/upload/logo/<?php echo  get_logo() ?>" alt="logo"></a>
                 </div>
 				<!-- MENU BEGIN HERE-->
                 <?php echo $nav_bar_menu ?>

@@ -67,7 +67,7 @@ class opd extends CI_Controller{
             //get the posts data
             $data['posts'] = $this->Opd_model->getRows(array('limit'=>$this->perPage));
             $selected_data = '';
-			$data['dt_cbo_opd'] = create_chosen_db_combo('nm_opd','tblopd', 'nama_opd', 'nama_opd', 'nama_opd', '-opd-', $selected_data);   
+			$data['dt_cbo_article'] = create_chosen_db_combo('section','sys_page_section', 'section_id', 'section_name', 'section_id', '-article-', $selected_data);   
      
             //load the view
             $this->load->view('wbadmin/user_main',$data);

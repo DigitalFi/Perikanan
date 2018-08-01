@@ -146,10 +146,11 @@ function ajaxPaginationData(){
 			$ret_msg_save='';
 			$img_change=true;
 			 if($_FILES['file']['error']!=4){ //if image selected to upload
+
 		    	$path = $_FILES['file']['name'];
 				$ext = ".".pathinfo($path, PATHINFO_EXTENSION);
-				$handle = new Upload($_FILES['file']);
-				$handle->allowed = 'image/*';
+				 $handle = new Upload($_FILES['file']);
+				 $handle->allowed = 'image/*';
 				    if($handle->uploaded) {//IF image begin to upload
 				    	$img_name_to_save = "img_$t";
 				    	$handle->file_new_name_body = $img_name_to_save;

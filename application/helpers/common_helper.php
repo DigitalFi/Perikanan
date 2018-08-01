@@ -38,29 +38,7 @@
 	}
 
 
-    function create_chosen_db_combo($id_obj, $tblname, $key_field, $value_field, $order_field, $additional_value, $data_checked='', $selected_value='', $param=''){
-     $ci =& get_instance();
-     $ci->load->database();
-     $sql ="SELECT $key_field, $value_field FROM $tblname $param";
-     $query=$ci->db->query($sql);
-
-    $dd='' ;
-    $state ='';
-      $dd.= '<select data-placeholder="" id="'.$id_obj.'" name="'.$id_obj.'" single class="chosen-select" tabindex="8" " >';
-          $cntr = 0;
-      foreach ($query->result() as $row) {
-        $flag ='';  
-            if($cntr==0){
-              $dd.='<option   value="">-Please Select-</option>';
-            } 
-          $dd.='<option '.$flag.'  value='.$row->$key_field.'>'.$row->$value_field.'</option>';
-            $cntr++;
-      }
-      $dd.= '</select>';
-    return $dd;
-  }
-
-   	function create_chosen_db_combox($id_obj, $tblname, $key_field, $value_field, $order_field, $additional_value, $data_checked='', $selected_value=''){
+   	function create_chosen_db_combo($id_obj, $tblname, $key_field, $value_field, $order_field, $additional_value, $data_checked='', $selected_value=''){
      $ci =& get_instance();
      $ci->load->database();
 	   $sql ="SELECT $key_field, $value_field FROM $tblname";
@@ -69,9 +47,8 @@
 		$dd='' ;// 'Please Select';
 		$state ='';
 		//if ($query->num_rows() > 0){
-			$dd.= '<select data-placeholder="" id="'.$id_obj.'" name="'.$id_obj.'" single class="chosen-select" tabindex="8" " >';
-			$dd.= '<option value="">"-Please Select-"</option>';
-      $cntr = 0;
+			$dd.= '<select data-placeholder="" id="'.$id_obj.'" name="'.$id_obj.'" single class="chosen-select" tabindex="8">';
+			$dd.= '<option value="'.$additional_value.'"></option>';
 			foreach ($query->result() as $row) {
 			$flag ='';	
 			//if (in_array($row->$key_field, $data_checked)) {
@@ -80,14 +57,10 @@
 			//if($row->$key_field==$selected_value){
 				//$state='Selected';
 			//}				
-        if($cntr==0){
-          $dd.='<option   value="">-Please Select-</option>';
-        } 
+				
 				$dd.='<option '.$flag.'  value='.$row->$key_field.'>'.$row->$value_field.'</option>';
-        $cntr++;
 			}
 			$dd.= '</select>';
-    
 		//}
 		return $dd;
 	}
@@ -378,4 +351,3 @@ function generate_footer($section_name='16'){//footer
     }
     return $footer;
   }
-

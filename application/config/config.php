@@ -17,9 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$base  = "http://".$_SERVER['HTTP_HOST'];
-$base .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
-$config['base_url/home'] = $base;
+$config['base_url'] = 'http://dkp.digitalfatih.com/';
 
 /*
 |--------------------------------------------------------------------------
@@ -61,8 +59,10 @@ $config['uri_protocol']	= 'REQUEST_URI';
 |
 | http://codeigniter.com/user_guide/general/urls.html
 */
-$config['url_suffix'] = '';
-
+//$config['url_suffix'] = '';
+$base  = "http://".$_SERVER['HTTP_HOST'];
+$base .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+$config['base_url'] = $base;
 /*
 |--------------------------------------------------------------------------
 | Default Language
@@ -367,7 +367,7 @@ $config['encryption_key'] = 'asjkrue*$djasfl134213';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = NULL;
+$config['sess_save_path'] = "/var/www/vhosts/digitalfatih.com/dkp.digitalfatih.com/tmp";
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
