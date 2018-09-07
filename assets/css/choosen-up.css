@@ -1,0 +1,21 @@
+.chosen-container .chosen-drop {
+  border-bottom: 0;
+  border-top: 1px solid #aaa;
+  top: auto;
+  bottom: 40px;
+}
+.chosen-container.chosen-with-drop .chosen-single {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-image: none;
+}
+.chosen-container.chosen-with-drop .chosen-drop {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: none;
+  margin-bottom: -16px;
+}

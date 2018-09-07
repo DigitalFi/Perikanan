@@ -135,7 +135,12 @@ class Ajax_pagination{
         // SHOWING LINKS
         if ($this->show_count){
             $curr_offset = $CI->uri->segment($this->uri_segment);
-            $info = 'Showing ' . ( $curr_offset + 1 ) . ' to ' ;
+
+            if(!is_numeric($curr_offset) || $curr_offset==''){
+                $curr_offset = 0;
+            }
+
+             $info = 'Showing ' . ( $curr_offset + 1 ) . ' to ' ;
 
             if( ( $curr_offset + $this->per_page ) < ( $this->total_rows -1 ) )
             $info .= $curr_offset + $this->per_page;
